@@ -1,0 +1,11 @@
+import pixy
+from ctypes import *
+from pixy import *
+
+print "Code Start"
+
+pixy.init()
+
+print "Pixy initialized"
+
+pixy.change_prog("line")
